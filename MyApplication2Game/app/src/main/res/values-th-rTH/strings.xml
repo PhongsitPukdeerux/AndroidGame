@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application 2 Game</string>
+    <string name="score">คะแนน : </string>
+    <string name="life">ชีวิต : </string>
+</resources>

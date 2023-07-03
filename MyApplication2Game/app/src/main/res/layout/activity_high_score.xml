@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/high_score_layout"
+    android:background="@drawable/background_animation_list"
+    tools:context=".HighScoreActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/score_recycler_view"
+        android:layout_width="404dp"
+        android:layout_height="524dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="158dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TextView
+
+        android:layout_width="178dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/bangers"
+        android:shadowColor="#7C7B7B"
+        android:text="HIGH SCORE"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
